@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+ 
+ .body_bemvindo {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./background.jpg');
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0px;
+}
+
+
+
+.fundo {
+    background-color: rgba(155, 0, 0, 0.74);
+    size: cover ;
+}
+
+.background_img {
+    position: absolute;
+    ;
+}
+
+.pag_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.pag_content h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pag_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    height: 500px;
+    padding: 1px 100px;
+    border: 15px;
+    border-radius: 50px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao a {
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 30px;
+    padding: 20px 45px;
+    margin-top: 150px;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}

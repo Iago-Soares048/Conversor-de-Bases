@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./background.jpg');
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Titulo h1 {
+    color: white;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.box_machine h1 {
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 5px;
+    margin: 0px 10px;
+    border-radius: 0px 0px 15px 15px;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.digite {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_machine {
+    background-color: rgb(53, 53, 53);
+    margin-top: 70px;
+    height: 450px;
+    width: 350px;
+    padding: 3px;
+    border-radius: 25px;
+
+
+}
+
+.glass {
+    display: flex;
+    flex: row;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: rgb(28, 65, 28);
+    border-radius: 15px;
+    width: 300px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(5, 12, 5);
+}
+
+input {
+    padding: 10px;
+    border-radius: 30px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+button {
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px;
+}
